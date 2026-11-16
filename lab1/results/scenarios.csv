@@ -1,0 +1,4 @@
+﻿scenario,status,objective_recomputed_rub,capacity_shadow_price,zero_variables,max_constraint_violation
+base,0,1199.2106884913178,-0.0,55,0.0
+deficit,0,1374.091040681033,-257.4833366455597,54,0.0
+stress,2,,,,

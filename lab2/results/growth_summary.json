@@ -1,0 +1,24 @@
+{
+  "scenario": "growth",
+  "status": 0,
+  "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "solver_seconds": 0.0014823749952483922,
+  "iterations": 16,
+  "passed": true,
+  "balance_error": 0.0,
+  "capacity_violation": 0,
+  "nonnegativity_violation": 0,
+  "objective": 206.944,
+  "objective_difference": 5.684341886080802e-14,
+  "most_loaded_arc": "e03",
+  "greedy": {
+    "complete": true,
+    "seconds": 6.60419900668785e-05,
+    "passed": true,
+    "balance_error": 0.0,
+    "capacity_violation": 0,
+    "nonnegativity_violation": 0,
+    "objective": 210.26399999999995,
+    "gap_percent": 1.6042987474872539
+  }
+}

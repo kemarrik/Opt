@@ -1,0 +1,15 @@
+{
+  "scenario": "base",
+  "status": 0,
+  "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "iterations": 25,
+  "passed": true,
+  "max_constraint_violation": 0.0,
+  "min_variable": 0.0,
+  "max_upper_bound_violation": 0.0,
+  "objective_recomputed_rub": 1199.2106884913178,
+  "objective_solver_rub": 1199.2106884913178,
+  "objective_difference": 0.0,
+  "zero_variables": 55,
+  "capacity_shadow_price": -0.0
+}

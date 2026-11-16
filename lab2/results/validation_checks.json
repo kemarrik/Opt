@@ -1,0 +1,8 @@
+{
+  "scenarios_passed": 4,
+  "greedy_plans_passed": 4,
+  "wrong_zero_flow_rejected": true,
+  "excess_capacity_rejected": true,
+  "seed_reproducible": true,
+  "base_e05_directional_sensitivity_confirmed": true
+}

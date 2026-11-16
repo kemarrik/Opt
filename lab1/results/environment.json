@@ -1,0 +1,6 @@
+{
+  "python": "3.13.3",
+  "numpy": "2.3.5",
+  "scipy": "1.18.1",
+  "solver": "HiGHS, version in solver logs"
+}

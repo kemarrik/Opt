@@ -1,0 +1,15 @@
+{
+  "scenario": "deficit",
+  "status": 0,
+  "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "iterations": 39,
+  "passed": true,
+  "max_constraint_violation": 0.0,
+  "min_variable": 0.0,
+  "max_upper_bound_violation": 0.0,
+  "objective_recomputed_rub": 1374.091040681033,
+  "objective_solver_rub": 1374.0910406810333,
+  "objective_difference": 2.2737367544323206e-13,
+  "zero_variables": 54,
+  "capacity_shadow_price": -257.4833366455597
+}

@@ -1,0 +1,11 @@
+{
+  "scenario": "stress",
+  "status": 2,
+  "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+  "iterations": 26,
+  "infeasibility_certificate": {
+    "required_kcal": 8500,
+    "upper_bound_kcal": 6692.364,
+    "contradiction": true
+  }
+}

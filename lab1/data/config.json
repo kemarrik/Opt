@@ -1,0 +1,38 @@
+{
+  "variant": 9,
+  "N": 6,
+  "Q": 0,
+  "Y": 26,
+  "seed": 10006,
+  "days": 5,
+  "max_portions_per_dish_day": 3,
+  "daily_limits": {
+    "kcal": [
+      1700,
+      2100
+    ],
+    "protein": [
+      80,
+      130
+    ],
+    "fat": [
+      45,
+      80
+    ],
+    "carbs": [
+      200,
+      300
+    ]
+  },
+  "scenarios": {
+    "base": {
+      "portion_capacity": 42
+    },
+    "deficit": {
+      "portion_capacity": 33.6
+    },
+    "stress": {
+      "portion_capacity": 25.2
+    }
+  }
+}
