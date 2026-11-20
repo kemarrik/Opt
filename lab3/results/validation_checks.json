@@ -1,0 +1,26 @@
+{
+  "base": {
+    "valid": true,
+    "held_karp_optimum": 341.62000000000006,
+    "milp_difference": 2.0463630789890885e-12
+  },
+  "deficit": {
+    "valid": true,
+    "held_karp_optimum": 350.55,
+    "milp_difference": 0.0
+  },
+  "stress": {
+    "valid": true,
+    "held_karp_optimum": 404.48,
+    "milp_difference": 0.0
+  },
+  "subtours_rejected": true,
+  "bad_artificial_flow_rejected": true,
+  "fractional_plan_rejected_as_tour": true,
+  "negative_value_rejected": true,
+  "closed_arc_rejected": true,
+  "seed_reproducible": true,
+  "benchmark_10_valid": true,
+  "benchmark_20_valid": true,
+  "benchmark_40_valid": true
+}

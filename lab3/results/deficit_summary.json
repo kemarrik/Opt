@@ -1,0 +1,73 @@
+{
+  "lp": {
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "seconds": 0.0024272500013466924,
+    "n": 12,
+    "M": 11.0,
+    "relaxation": true,
+    "fun": 317.2354545454546,
+    "mip_gap": null,
+    "mip_dual_bound": null,
+    "mip_node_count": null,
+    "verification": {
+      "passed": true,
+      "degree_error": 1.1102230246251565e-16,
+      "flow_balance_error": 0.0,
+      "link_violation": 0.0,
+      "bound_violation": 0.0,
+      "closed_arc_violation": 0.0,
+      "root_flow_violation": 0.0,
+      "integer_error": 0,
+      "objective_recomputed": 317.2354545454546,
+      "single_tour": null,
+      "route": [],
+      "objective_difference": 0.0
+    }
+  },
+  "milp": {
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "seconds": 0.033025166998413624,
+    "n": 12,
+    "M": 11.0,
+    "relaxation": false,
+    "fun": 350.55,
+    "mip_gap": 0.0,
+    "mip_dual_bound": 350.55,
+    "mip_node_count": 1.0,
+    "verification": {
+      "passed": true,
+      "degree_error": 0.0,
+      "flow_balance_error": 0.0,
+      "link_violation": 0.0,
+      "bound_violation": 0.0,
+      "closed_arc_violation": 0.0,
+      "root_flow_violation": 0.0,
+      "integer_error": 0.0,
+      "objective_recomputed": 350.55,
+      "single_tour": true,
+      "route": [
+        0,
+        6,
+        1,
+        10,
+        3,
+        4,
+        8,
+        7,
+        2,
+        5,
+        11,
+        9,
+        0
+      ],
+      "objective_difference": 0.0
+    }
+  },
+  "greedy": {
+    "seconds": 0.0001426659982826095,
+    "complete": false
+  },
+  "integrality_gap_percent": 9.503507475266122
+}

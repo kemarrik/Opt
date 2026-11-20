@@ -1,0 +1,86 @@
+Running HiGHS 1.12.0 (git hash: 4f96ee8): Copyright (c) 2025 HiGHS under MIT licence terms
+LP has 168 rows; 264 cols; 792 nonzeros
+Coefficient ranges:
+  Matrix  [1e+00, 1e+01]
+  Cost    [2e+00, 1e+02]
+  Bound   [1e+00, 1e+01]
+  RHS     [1e+00, 1e+01]
+WARNING: No semi-integer/integer variables in model with non-empty integrality
+Presolving model
+111 rows, 155 cols, 460 nonzeros  0s
+Dependent equations search running on 20 equations with time limit of 1.00s
+Dependent equations search removed 2 rows and 32 nonzeros in 0.00s (limit = 1.00s)
+93 rows, 139 cols, 483 nonzeros  0s
+Presolve reductions: rows 93(-75); columns 139(-125); nonzeros 483(-309) 
+Solving the presolved LP
+Using EKK dual simplex solver - serial
+  Iteration        Objective     Infeasibilities num(sum)
+          0     0.0000000000e+00 Ph1: 0(0) 0s
+         90     3.4932454545e+02 Pr: 0(0) 0s
+
+Performed postsolve
+Solving the original LP from the solution after postsolve
+
+Model status        : Optimal
+Simplex   iterations: 90
+Objective value     :  3.4932454545e+02
+P-D objective error :  0.0000000000e+00
+HiGHS run time      :          0.00
+Running HiGHS 1.12.0 (git hash: 4f96ee8): Copyright (c) 2025 HiGHS under MIT licence terms
+MIP has 168 rows; 264 cols; 792 nonzeros; 132 integer variables (80 binary)
+Coefficient ranges:
+  Matrix  [1e+00, 1e+01]
+  Cost    [2e+00, 1e+02]
+  Bound   [1e+00, 1e+01]
+  RHS     [1e+00, 1e+01]
+Presolving model
+111 rows, 155 cols, 460 nonzeros  0s
+95 rows, 139 cols, 515 nonzeros  0s
+Presolve reductions: rows 95(-73); columns 139(-125); nonzeros 515(-277) 
+Objective function is integral with scale 100
+
+Solving MIP model with:
+   95 rows
+   139 cols (64 binary, 0 integer, 0 implied int., 75 continuous, 0 domain fixed)
+   515 nonzeros
+
+Src: B => Branching; C => Central rounding; F => Feasibility pump; H => Heuristic;
+     I => Shifting; J => Feasibility jump; L => Sub-MIP; P => Empty MIP; R => Randomized rounding;
+     S => Solve LP; T => Evaluate node; U => Unbounded; X => User solution; Y => HiGHS solution;
+     Z => ZI Round; l => Trivial lower; p => Trivial point; u => Trivial upper; z => Trivial zero
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work      
+Src  Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+         0       0         0   0.00%   -64.82          inf                  inf        0      0      0         0     0.0s
+         0       0         0   0.00%   349.3245455     inf                  inf        0      0     15        90     0.0s
+ R       0       0         0   0.00%   360.7885874     488.54            26.15%      298     17     50       154     0.0s
+ L       0       0         0   0.00%   387.715977      424.59             8.68%     1481     58     67       400     0.1s
+
+10.9% inactive integer columns, restarting
+Model after restart has 88 rows, 125 cols (57 bin., 0 int., 0 impl., 68 cont., 0 dom.fix.), and 464 nonzeros
+
+         0       0         0   0.00%   387.7305152     424.59             8.68%       21      0      0      1111     0.1s
+         0       0         0   0.00%   387.7305152     424.59             8.68%       21     21      3      1171     0.1s
+ B       0       0         0   0.00%   390.5559632     404.48             3.44%     1405     22      3      2453     0.2s
+         1       0         1 100.00%   404.48          404.48             0.00%     1410     22     18      2862     0.2s
+
+Solving report
+  Status            Optimal
+  Primal bound      404.48
+  Dual bound        404.48
+  Gap               0%
+  P-D integral      0.0218286030394
+  Solution status   feasible
+                    404.48 (objective)
+                    0 (bound viol.)
+                    2.6645352591e-15 (int. viol.)
+                    0 (row viol.)
+  Timing            0.20
+  Max sub-MIP depth 2
+  Nodes             1
+  Repair LPs        0
+  LP iterations     2862
+                    343 (strong br.)
+                    475 (separation)
+                    1828 (heuristics)
